@@ -1,1 +1,41 @@
+body {background-color: #a2b9bc;
+  color: #6b5b95;
+  font-family: Garamond, Georgia, serif;
+  margin: 5% 5%;
+    
+}
 
+.name {
+  text-align: center;
+  border-top: 4px dotted black;
+  border-bottom: 4px dotted black;
+  width: auto;
+  height: 100px;
+  background-color: a2b9bc;
+  animation-name: name;
+  animation-duration: 10s;
+  }
+
+@keyframes name {
+  0%   {background-color: a2b9bc;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
+
+}
+
+.description {
+  background-color: #bccccc;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.experience {
+  text-align: center;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
