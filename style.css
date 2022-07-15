@@ -5,18 +5,18 @@ body {background-color: #a2b9bc;
     
 }
 
-.name {
+.aboutme {
   text-align: center;
   border-top: 4px dotted black;
   border-bottom: 4px dotted black;
   width: auto;
-  height: 100px;
+  height: 55px;
   background-color: a2b9bc;
-  animation-name: name;
+  animation-name: aboutme;
   animation-duration: 10s;
   }
 
-@keyframes name {
+@keyframes aboutme {
   0%   {background-color: a2b9bc;}
   25%  {background-color: yellow;}
   50%  {background-color: blue;}
